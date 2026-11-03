@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="LunarstarItems"
+                 name="星月紀伺服器物品及生物說明中心"
+                 start-page="intro.md">
+
+    <toc-element topic="intro.md"/>
+    <toc-element toc-title="補償物品">
+        <toc-element topic="GanJiang.md"/>
+        <toc-element topic="GiftOfHeroes.md"/>
+    </toc-element>
+    <toc-element toc-title="星月紀實體幣（棄用）">
+        <toc-element topic="Coin.md" />
+    </toc-element>
+    <toc-element toc-title="娃娃">
+        <toc-element topic="Axololt_Ou0.md" />
+        <toc-element topic="xin2580.md" />
+        <toc-element topic="FyrKuma.md" />
+        <toc-element topic="ItzJames__.md"/>
+        <toc-element topic="_ooo0740ooo_.md"/>
+        <toc-element topic="Onion0102.md"/>
+        <toc-element topic="Lo_0w0.md"/>
+        <toc-element topic="sherrytw.md"/>
+        <toc-element topic="CloudCat_Yueluo.md"/>
+        <toc-element topic="XersgokTW.md"/>
+        <toc-element topic="YeAnQQ.md"/>
+        <toc-element topic="chotata.md"/>
+        <toc-element topic="xiaowolf_Knight.md"/>
+        <toc-element topic="Axololt_Dev.md"/>
+    </toc-element>
+</instance-profile>
