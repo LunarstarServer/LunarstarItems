@@ -5,14 +5,19 @@
 
     <variables>
         <primary-color>strawberry</primary-color>
-        <config-feedback-require-email>true</config-feedback-require-email>
         <download-page>https://lunarstar.axolotldev.me</download-page>
         <download-title>回星月紀伺服器首頁</download-title>
         <showDownloadButton>true</showDownloadButton>
         <custom-favicons>https://lunarstar.axolotldev.me/images/favicon.png</custom-favicons>
+        <header-logo>https://lunarstar.axolotldev.me/images/favicon.png</header-logo>
+        <product-web-url>https://items.lunarstar.axolotldev.me/intro.html</product-web-url>
         <external-links-in-new-tab>true</external-links-in-new-tab>
-        <feedback-recaptcha-enabled>false</feedback-recaptcha-enabled>
         <content-max-width>5000</content-max-width>
+        <custom-banner bg-theme="strawberry" link="https://help.lunarstar.axolotldev.me/%E6%95%99%E5%AD%B8/%E9%80%A3%E7%B7%9A%E8%87%B3%E4%BC%BA%E6%9C%8D%E5%99%A8">現在就加入星月紀伺服器！</custom-banner>
+        <contribute-url>https://github.com/LunarstarServer/LunarstarItems/tree/main/Writerside</contribute-url>
+        <enable-contribution>true</enable-contribution>
+        <resizable-sidebar>true</resizable-sidebar>
+        <og-twitter>https://cdn.axolotldev.me/lunarstar/items/og-twitter.png</og-twitter>
     </variables>
     <build-profile instance="LunarstarItems">
         <variables>
@@ -21,11 +26,17 @@
             <algolia-api-key>17c93858fa6734905a7077df26d61434</algolia-api-key>
             <algolia-index>LunarstarItems</algolia-index>
             <algolia-show-logo>true</algolia-show-logo>
+            <webmaster>items-docs@lunarstar.axolotldev.me</webmaster>
         </variables>
     </build-profile>
     <footer>
+        <social type="email" href="lunarstar@axolotldev.me">電子郵件</social>
+        <social type="discord" href="https://discord.com/invite/zWewVEEBbZ">星月紀官方Discord伺服器</social>
+        <social type="youtube" href="https://www.youtube.com/channel/UCN_xhqqiPsLR3_SN49pJDRA">星月紀官方YouTube頻道</social>
+        <social type="facebook" href="https://www.facebook.com/profile.php?id=61579764353814">星月紀官方Facebook帳戶</social>
+        <social type="instagram" href="https://instagram.com/lunarstarserver/">星月紀官方Instagram帳戶</social>
         <copyright>2026 Lunarstar. All Rights Reserved</copyright>
-        <notice>Not an official Minecraft product. Not approved by or associated with Mojang.</notice>
+        <notice icon="Minecraft.png">Not an official Minecraft product. Not approved by or associated with Mojang.</notice>
     </footer>
 
 </buildprofiles>
